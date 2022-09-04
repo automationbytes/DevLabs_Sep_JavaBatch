@@ -1,4 +1,4 @@
-package JavaPrograms;
+package Day1;
 
 public class UnarYoperator {
 	public static void main(String[] args) {

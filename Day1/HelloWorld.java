@@ -1,4 +1,4 @@
-package JavaPrograms;
+package Day1;
 
 public class HelloWorld {
 	public static void main(String[] args) {

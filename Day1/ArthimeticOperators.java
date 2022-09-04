@@ -1,4 +1,4 @@
-package JavaPrograms;
+package Day1;
 
 public class ArthimeticOperators {
 public static void main(String[] args) {
