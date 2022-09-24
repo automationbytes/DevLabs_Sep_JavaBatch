@@ -1,0 +1,12 @@
+package Day3;
+
+public class aanimal {
+	void eat() {
+		System.out.println("Animal eat method");
+	}
+
+	void sleep() {
+		System.out.println("Animal sleep method");
+	}
+
+}

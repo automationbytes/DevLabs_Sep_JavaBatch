@@ -1,0 +1,10 @@
+package Day6;
+
+public class StringOccurence {
+	public static void main(String[] args) {
+
+		String str = "Hello Java"
+		
+		
+	}
+}

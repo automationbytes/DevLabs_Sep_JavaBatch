@@ -1,0 +1,14 @@
+package Day3;
+
+public class DDog extends aanimal{
+	
+	void eat() {
+		System.out.println("Dog eat method");
+	}
+
+	
+public static void main(String[] args) {
+	aanimal d = new DDog();
+	d.eat();
+}
+}

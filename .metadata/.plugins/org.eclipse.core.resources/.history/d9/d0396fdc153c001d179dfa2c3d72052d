@@ -1,0 +1,41 @@
+package Utility;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Arrays;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelReader {
+	public static void main(String[] args) {
+		try {
+			System.out.println();
+			FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\Datasheet1.xlsx");
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+			XSSFSheet sheet = workbook.getSheet("DevopsUniv");
+			int noofRows = sheet.getPhysicalNumberOfRows();
+			int noofCols = sheet.getRow(0).getLastCellNum();
+			System.out.println(noofRows);
+			System.out.println(noofCols);
+			String[] LabelValue = new String[noofRows];
+			String[] HeaderValue = new String[noofCols];
+			
+			for(int i = 0; i< noofRows; i++) {
+				LabelValue[i] = sheet.getRow(i).getCell(0).getStringCellValue();
+				
+			}
+			System.out.println(Arrays.toString(LabelValue));
+			for(int j=0; j<noofCols;j++) {
+				HeaderValue[j] = sheet.getRow(0).getCell(j).getStringCellValue();
+			}
+
+			System.out.println(Arrays.toString(HeaderValue));
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	}
+}

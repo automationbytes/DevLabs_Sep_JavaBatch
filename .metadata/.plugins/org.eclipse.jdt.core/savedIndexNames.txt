@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\Vigne\SepBatch\.metadata\.plugins\org.eclipse.jdt.core
+2416138334.index
+3285135714.index
+2570235923.index
+3259104663.index
+127233024.index
+2943047195.index
+2621663137.index
+2089224519.index
+2300549456.index
+1019929813.index
+1638541856.index
+3179256256.index
+3040871654.index
+1428628898.index
+2826584697.index

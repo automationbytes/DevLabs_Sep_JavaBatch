@@ -1,0 +1,14 @@
+package Day5;
+
+public class List_Interface {
+	public static void main(String[] args) {
+
+		/*
+		 * List can store elements sequential order
+		 * Insertion order will be preserved
+		 * Able to access with index
+		 * 
+		 * 
+		 */
+	}
+}

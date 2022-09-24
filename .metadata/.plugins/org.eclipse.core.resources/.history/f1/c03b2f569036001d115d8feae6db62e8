@@ -1,0 +1,17 @@
+package Day5;
+
+public class InstanceVariable {
+	private String studentName ="Tom" ;
+	String Rollnum = "55";
+	static String schoolName ="public high school";
+	
+	void read() {
+		System.out.println(studentName);
+	}
+	
+	public static void main(String[] args) {
+		InstanceVariable i = new InstanceVariable();
+		System.out.println(i.studentName);
+		System.out.println(schoolName);
+	}
+}

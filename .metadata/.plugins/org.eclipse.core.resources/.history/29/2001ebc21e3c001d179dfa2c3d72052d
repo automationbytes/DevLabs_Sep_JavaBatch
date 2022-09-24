@@ -1,0 +1,10 @@
+package Day6;
+
+public class ExtractingNumbers {
+	public static void main(String[] args) {
+		String str = "abc789nac123";
+		//String number = str.replaceAll("[^0-9]", "");
+		String number = str.replaceAll("\\d", "");
+		System.out.println(number);
+	}
+}

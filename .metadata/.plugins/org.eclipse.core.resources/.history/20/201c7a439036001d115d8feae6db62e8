@@ -1,0 +1,15 @@
+package Day5;
+
+public class InstanceVariable {
+	String studentName ;
+	String Rollnum;
+	
+	void read() {
+		System.out.println(studentName);
+	}
+	
+	public static void main(String[] args) {
+		InstanceVariable i = new InstanceVariable();
+		System.out.println(i.studentName);
+	}
+}

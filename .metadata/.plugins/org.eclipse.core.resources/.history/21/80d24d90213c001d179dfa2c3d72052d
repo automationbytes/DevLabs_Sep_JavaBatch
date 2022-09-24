@@ -1,0 +1,26 @@
+package Day6;
+
+import java.util.LinkedHashMap;
+
+public class StringOccurence {
+	public static void main(String[] args) {
+
+		String str = "madam";
+		char[] arr = str.toLowerCase().toCharArray();
+		LinkedHashMap<Character,Integer> mymap = new LinkedHashMap<Character,Integer>();
+		for(char c : arr) {
+			if(mymap.containsKey(c)) {
+				mymap.put(c,mymap.get(c)+1);
+			}else {
+				mymap.put(c, 1);
+			}
+		}
+		System.out.println(mymap);
+		
+		for(char c : arr) {
+			if(mymap.get(c) > 1) {
+				System.out.println(c);
+			}
+		}
+	}
+}

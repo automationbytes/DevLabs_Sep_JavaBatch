@@ -1,0 +1,27 @@
+package Utility;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelReader {
+	public static void main(String[] args) {
+		try {
+			FileInputStream file = new FileInputStream("resources/Datasheet1.xlsx");
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+			XSSFSheet sheet = workbook.getSheet("DevopsUniv");
+			int noofRows = sheet.getPhysicalNumberOfRows();
+			int noofCols = sheet.getRow(0).getLastCellNum();
+			System.out.println(noofRows);
+			System.out.println(noofCols);
+			
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	}
+}
