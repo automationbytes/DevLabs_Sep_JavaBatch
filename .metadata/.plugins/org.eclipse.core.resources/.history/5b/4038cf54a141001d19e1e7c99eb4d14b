@@ -1,0 +1,31 @@
+package Day8;
+
+import java.time.Duration;
+import java.util.Date;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class irctc_wait {
+	public static void main(String[] args) {
+		long StartTime = System.currentTimeMillis();
+		System.out.println(StartTime);
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(80));
+		driver.get("https://www.irctc.co.in/nget/train-search");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		
+		driver.findElement(By.xpath("//button[text()='OK']")).click();
+		long EndTime = 0L;
+		while(EndTime < 60*1000) {
+			System.out.println(new Date().getTime() - StartTime);
+		}
+		//long EndTime = System.currentTimeMillis();
+		System.out.println(EndTime);
+	}
+}
