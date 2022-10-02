@@ -1,0 +1,24 @@
+iframes
+--------
+iframes
+frameset - html 5
+-------------------
+3 ways 
+
+1) by name/id
+2) by locators (8)
+3) by index
+
+--------------
+
+Alerts - popup
+
+accept
+dismiss
+sendkeys
+getText
+
+---------------------
+
+getWindowHandle - pid - string
+getWindowHandles - all open window pids - it includes first window as well - set<string>
