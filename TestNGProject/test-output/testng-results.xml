@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-15T21:48:05 IST" name="Default suite" finished-at="2022-10-15T21:48:17 IST" duration-ms="11523">
+    <groups>
+      <group name="searchengine">
+        <method signature="SeleniumEg.launch()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" name="launch" class="TestNG_Eg.SeleniumEg"/>
+        <method signature="SeleniumEg.launchBing()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" name="launchBing" class="TestNG_Eg.SeleniumEg"/>
+        <method signature="SeleniumEg.launchGoogle()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" name="launchGoogle" class="TestNG_Eg.SeleniumEg"/>
+      </group> <!-- searchengine -->
+      <group name="ecommerce">
+        <method signature="SeleniumEg.launchAmazon()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" name="launchAmazon" class="TestNG_Eg.SeleniumEg"/>
+        <method signature="SeleniumEg.launchEbay()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" name="launchEbay" class="TestNG_Eg.SeleniumEg"/>
+      </group> <!-- ecommerce -->
+    </groups>
+    <test started-at="2022-10-15T21:48:05 IST" name="Default test" finished-at="2022-10-15T21:48:17 IST" duration-ms="11523">
+      <class name="TestNG_Eg.SeleniumEg">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:05 IST" name="initDriver" finished-at="2022-10-15T21:48:09 IST" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="launch()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:09 IST" name="launch" finished-at="2022-10-15T21:48:10 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="launchAmazon()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:10 IST" name="launchAmazon" finished-at="2022-10-15T21:48:12 IST" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazon -->
+        <test-method signature="launchBing()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:12 IST" name="launchBing" finished-at="2022-10-15T21:48:13 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBing -->
+        <test-method signature="launchEbay()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:13 IST" name="launchEbay" finished-at="2022-10-15T21:48:15 IST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchEbay -->
+        <test-method signature="launchGoogle()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:15 IST" name="launchGoogle" finished-at="2022-10-15T21:48:16 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:TestNG_Eg.SeleniumEg@79e4c792]" started-at="2022-10-15T21:48:16 IST" name="cleanup" finished-at="2022-10-15T21:48:17 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- TestNG_Eg.SeleniumEg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
