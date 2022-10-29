@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Vigne\SepBatch\TestNGPOM\src\test\java\testcases\launchURL.java"/>
 			<item value="C:\Users\Vigne\SepBatch\Automation\src\test\java\Day11\Calendar.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,6 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Automation.Cucumber_Project"/>
+			<item value="com.Automation.TestNGPOM"/>
 			<item value="com.Automation.TestNG_Project"/>
 			<item value="Selenium_Practice.Automation"/>
 		</list>
@@ -34,6 +37,8 @@
 			<item value="Selenium_Practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="Cucumber_Project"/>
+			<item value="TestNGPOM"/>
 			<item value="TestNG_Project"/>
 			<item value="Automation"/>
 		</list>
