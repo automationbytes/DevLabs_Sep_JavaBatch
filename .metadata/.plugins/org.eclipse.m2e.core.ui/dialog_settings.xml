@@ -27,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Automation.Cucumber_POM"/>
 			<item value="com.Automation.Cucumber_Project"/>
 			<item value="com.Automation.TestNGPOM"/>
 			<item value="com.Automation.TestNG_Project"/>
@@ -37,6 +38,7 @@
 			<item value="Selenium_Practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="Cucumber_POM"/>
 			<item value="Cucumber_Project"/>
 			<item value="TestNGPOM"/>
 			<item value="TestNG_Project"/>
