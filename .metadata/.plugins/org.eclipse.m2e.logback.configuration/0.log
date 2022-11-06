@@ -2909,3 +2909,5 @@
 2022-11-05 21:34:23,919 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vigne\SepBatch\TestNGProject\src\test\resources
 2022-11-05 21:36:45,698 [Worker-40: Launching Delete_Req] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-05 21:36:45,698 [Worker-40: Launching Delete_Req] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vigne\SepBatch\TestNGProject\src\main\resources
+2022-11-05 21:36:45,700 [Worker-40: Launching Delete_Req] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-05 21:36:45,701 [Worker-40: Launching Delete_Req] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vigne\SepBatch\TestNGProject\src\test\resources
